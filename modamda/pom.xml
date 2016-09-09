@@ -437,7 +437,7 @@
                             <outputDirectory>${project.basedir}/src/main/webapp/resources/css</outputDirectory>
                             <compress>true</compress>
                             <includes>
-                                <include>petclinic.less</include>
+                                <include>modamda.less</include>
                             </includes>
                         </configuration>
                         <executions>
