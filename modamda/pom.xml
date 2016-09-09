@@ -141,10 +141,7 @@
             <scope>runtime</scope>
         </dependency>
 
-        <!-- Database connection pool
-        See here for more details on commons-dbcp versus tomcat-jdbc:
-        http://blog.ippon.fr/2013/03/13/improving-the-performance-of-the-spring-petclinic-sample-application-part-3-of-5/
-    -->
+        <!-- Database connection pool-->
         <dependency>
             <groupId>org.apache.tomcat</groupId>
             <artifactId>tomcat-jdbc</artifactId>
@@ -272,7 +269,7 @@
     <!-- Maven plugin versions are mentioned in order to guarantee the build reproducibility in the long term -->
     <build>
         <defaultGoal>install</defaultGoal>
-        <finalName>petclinic</finalName>
+        <finalName>modamda</finalName>
         <testResources>
             <testResource>
                 <!-- declared explicitly so Spring config files can be placed next to their corresponding JUnit test class  -->
@@ -358,7 +355,7 @@
                 <configuration>
                     <server>tomcat-development-server</server>
                     <port>9966</port>
-                    <path>/petclinic</path>
+                    <path>/modamda</path>
                 </configuration>
             </plugin>
             <plugin>
